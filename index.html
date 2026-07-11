@@ -27,6 +27,7 @@
     "@type": "Product",
     "name": "La Crème Essentielle N° 333",
     "brand": { "@type": "Brand", "name": "Trisève" },
+    "image": "https://triseve.vercel.app/media/jar.jpg",
     "description": "Natural hand & body emulsion composed of thirteen ingredients — olive-derived emulsifier, avocado and jojoba oils, squalane, hyaluronic acid, provitamin B5 and vitamin E, preserved with radish root ferment. No parabens, silicones, mineral oil or synthetic fragrance.",
     "category": "Skincare"
   }
@@ -128,12 +129,9 @@
     <section class="section" id="creme" style="padding-top:0">
       <div class="product">
         <div class="product__media reveal">
-          <img src="/media/jar.jpg" alt="The Trisève cream jar on a warm neutral background" loading="lazy" width="1200" height="1500">
-          <div class="product__plaque" aria-hidden="true">
-            <p class="plaque-brand">Trisève</p>
-            <p class="plaque-no">N° 333</p>
-            <p class="plaque-sub">La Crème Essentielle</p>
-          </div>
+          <video muted loop playsinline preload="none" poster="/media/jar-motion-poster.jpg" aria-label="The Trisève N° 333 amber glass jar with wooden lid, its ivory label reading La Crème Essentielle">
+            <source src="/media/jar-motion.mp4" type="video/mp4">
+          </video>
         </div>
 
         <div class="product__body">
@@ -197,8 +195,8 @@
           <figcaption>Le geste — the gesture</figcaption>
         </figure>
         <figure class="reveal" style="--d:.14s">
-          <video muted loop playsinline preload="none" poster="/media/dollop-poster.jpg" aria-label="A finger scooping a rich dollop of cream from an open jar in warm light">
-            <source src="/media/dollop.mp4" type="video/mp4">
+          <video muted loop playsinline preload="none" poster="/media/texture-poster.jpg" aria-label="Macro close-up of rich cream texture folding in slow swirls">
+            <source src="/media/texture.mp4" type="video/mp4">
           </video>
           <figcaption>La matière — the texture</figcaption>
         </figure>
@@ -424,8 +422,8 @@
 
     <!-- ============ TEXTURE BREAK ============ -->
     <section class="texture-break" aria-label="Cream texture">
-      <video muted loop playsinline preload="none" poster="/media/texture-poster.jpg">
-        <source src="/media/texture.mp4" type="video/mp4">
+      <video muted loop playsinline preload="none" poster="/media/texture2-poster.jpg">
+        <source src="/media/texture2.mp4" type="video/mp4">
       </video>
       <div class="inner">
         <p class="display reveal">Composed of what your skin <em>already knows.</em></p>
@@ -443,7 +441,7 @@
       <div class="collection__grid">
         <a class="coll-card" href="#creme">
           <div class="coll-card__img">
-            <img src="/media/jar.jpg" alt="La Crème Essentielle N° 333" loading="lazy" width="900" height="1125">
+            <img src="/media/jar.jpg" alt="La Crème Essentielle N° 333 — amber glass jar with wooden lid and ivory Trisève label" loading="lazy" width="1400" height="2100">
             <span class="coll-card__tag coll-card__tag--live" lang="fr">Disponible</span>
           </div>
           <div class="coll-card__meta">
