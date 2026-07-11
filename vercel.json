@@ -1,13 +1,15 @@
 {
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
-      "source": "/media/(.*)",
+      "source": "/(media|fonts|img)/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=604800, stale-while-revalidate=2592000" }
       ]
     },
     {
-      "source": "/(styles.css|main.js|favicon.svg)",
+      "source": "/(styles.css|site.js|favicon.svg)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
       ]
