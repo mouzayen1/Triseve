@@ -73,16 +73,26 @@
     });
   });
 
-  /* ----- lazy-play videos when visible (battery & bandwidth) ----- */
-  var videos = document.querySelectorAll("video[preload='none']");
-  if ("IntersectionObserver" in window && videos.length) {
+  /* ----- video motion: respect reduced-motion, lazy-play, click to pause ----- */
+  var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var allVideos = document.querySelectorAll("video");
+
+  if (reducedMotion) {
+    allVideos.forEach(function (v) {
+      v.removeAttribute("autoplay");
+      v.pause();
+    });
+  }
+
+  var lazyVideos = document.querySelectorAll("video[preload='none']");
+  if (!reducedMotion && "IntersectionObserver" in window && lazyVideos.length) {
     var videoObserver = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
           var v = entry.target;
           if (entry.isIntersecting) {
             if (v.preload === "none") v.preload = "auto";
-            v.play().catch(function () {});
+            if (!v.dataset.userPaused) v.play().catch(function () {});
           } else {
             v.pause();
           }
@@ -90,8 +100,21 @@
       },
       { rootMargin: "200px 0px" }
     );
-    videos.forEach(function (v) { videoObserver.observe(v); });
+    lazyVideos.forEach(function (v) { videoObserver.observe(v); });
   }
+
+  /* any video can be paused/resumed with a click or a keypress */
+  allVideos.forEach(function (v) {
+    v.addEventListener("click", function () {
+      if (v.paused) {
+        delete v.dataset.userPaused;
+        v.play().catch(function () {});
+      } else {
+        v.dataset.userPaused = "1";
+        v.pause();
+      }
+    });
+  });
 
   /* ----- current year ----- */
   var year = document.getElementById("year");
