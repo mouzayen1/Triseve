@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://triseve.vercel.app/sitemap.xml
