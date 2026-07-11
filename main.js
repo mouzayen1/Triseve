@@ -9,7 +9,9 @@
 
   /* ----- header state on scroll ----- */
   function onScroll() {
-    header.classList.toggle("is-scrolled", window.scrollY > 40);
+    var scrolled = window.scrollY > 40;
+    header.classList.toggle("is-scrolled", scrolled);
+    document.documentElement.classList.toggle("abar-hidden", scrolled);
   }
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
