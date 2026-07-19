@@ -8,7 +8,7 @@
 
 | Asset | File | Use |
 |---|---|---|
-| Monogram (three sap drops, ∴ formation) | `monogram-ink/-cream/-laurier.png` | Favicon, social avatar, watermark, pattern |
+| L'Essence — the mark (one drop, three nested layers) | `monogram-ink/-cream/-laurier.png` | Favicon, social avatar, watermark, jar hallmark |
 | Horizontal wordmark | `logo-horizontal(-cream/-mono).png` | Website header, email header, invoices |
 | Stacked lockup | `logo-stacked(-cream).png` | Packaging boxes, hero placements, thank-you cards |
 | House emblem / seal | `emblem(-cream/-mono-ink).png` | Box seal sticker, tissue paper, certificates, wax-seal style accents |
@@ -25,15 +25,15 @@
 
 **Rules**
 - The wordmark is never bolded, condensed, tilted, or given effects.
-- The drops are always three. Never two, never four, never recoloured outside the palette.
+- The mark is always three layers. The inner layers always swirl counter-clockwise (−10°, −21°). Never redraw, never outline, never recolour outside the palette.
 - Clear space around any lockup ≥ the height of one drop.
 - On amber or ink backgrounds use the cream variants; never place ink logos on amber.
 
 ## 2 · Why it works (the psychology)
 
-1. **Processing fluency.** Three simple shapes and one typeface — the mark is parsed in a glance. Simple marks are recognised faster, remembered longer, and reproduce perfectly at 16 px or 6 ft.
-2. **An ownable symbol with meaning.** ∴ is the mathematical sign for *therefore* — proof, logic, conclusion. No beauty brand owns it. It quietly restates the positioning ("we show our reasoning") every time it appears.
-3. **The discovery effect.** Drops = the three sèves (olive · avocado · jojoba). Formation = ∴. Customers who *discover* the double meaning get an insider moment — self-generated insights are remembered better than stated claims, and they get retold ("did you know the dots mean…"), which is word-of-mouth.
+1. **One drop, three layers — L'Essence.** The mark is a single drop of sève holding three nested layers that swirl gently toward the small drop at its heart: three saps, distilled to one essence. One glance reads "drop / botanical / luxury"; a second look finds the three-in-one story.
+2. **Sensual by construction.** The inner layers rotate off-axis (−10°, −21°), giving the mark quiet motion — like cream folding or sap swirling. Static symmetry is corporate; controlled asymmetry is organic and alive. That is the "sexy" — restraint with a pulse.
+3. **The discovery effect.** Three layers = the three sèves (olive · avocado · jojoba) = the three creams = the three promises. Customers who *discover* the layering get an insider moment — self-generated insights are remembered better than stated claims, and they get retold, which is word-of-mouth.
 4. **Category codes, used deliberately.** Letterspaced serif caps are the visual dialect of luxury houses; the accent grave in TRISÈVE triggers the French-beauty heritage heuristic while staying easy to say — name fluency drives recommendation.
 5. **Rule of three.** Three drops, three creams, three promises, N° 333. Human memory chunks in threes; repetition of the motif makes the whole brand feel authored rather than assembled.
 6. **The seal schema.** A circular emblem reads as certification/authenticity (notary stamps, wax seals). Printed on tissue or the box closure it triggers unboxing-ritual behaviour people photograph and share.

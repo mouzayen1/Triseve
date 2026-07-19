@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#f4efe6"/>
-  <circle cx="32" cy="21" r="5.4" fill="#201b13"/>
-  <circle cx="21.5" cy="40" r="5.4" fill="#5f6a4e"/>
-  <circle cx="42.5" cy="40" r="5.4" fill="#a4854f"/>
+  <rect width="64" height="64" rx="14" fill="#FAF9F6"/>
+  <g transform="translate(32,36) scale(0.30)">
+    <g fill="#465142" fill-rule="evenodd">
+      <path d="M 0,-70 C 17,-46 37,-20 37,7 A 37,37 0 1,1 -37,7 C -37,-20 -17,-46 0,-70 Z M 0,-51 C -12.5,-33 -27,-14 -27,5.5 A 27,27 0 1,0 27,5.5 C 27,-14 12.5,-33 0,-51 Z"/>
+      <g transform="rotate(-10)"><path fill-rule="evenodd" transform="scale(0.60) translate(0,6)" d="M 0,-70 C 17,-46 37,-20 37,7 A 37,37 0 1,1 -37,7 C -37,-20 -17,-46 0,-70 Z M 0,-46 C -11,-29 -24,-12 -24,6 A 24,24 0 1,0 24,6 C 24,-12 11,-29 0,-46 Z"/></g>
+      <g transform="rotate(-21)"><path transform="scale(0.25) translate(0,26)" d="M 0,-70 C 17,-46 37,-20 37,7 A 37,37 0 1,1 -37,7 C -37,-20 -17,-46 0,-70 Z"/></g>
+    </g>
+  </g>
 </svg>
